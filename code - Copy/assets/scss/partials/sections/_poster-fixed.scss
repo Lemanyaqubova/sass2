@@ -1,0 +1,35 @@
+#poster-fixed {
+    margin-top: 100px;
+    height: 415.85px;
+    background-image: url(../img/b018f0b3-e046-432c-904f-11fb792acd21.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .poster {
+        h4 {
+            color: white;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .result {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            .content {
+                margin-left: 100px;
+                h1 {
+                    color: white;
+                    text-align: center;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}

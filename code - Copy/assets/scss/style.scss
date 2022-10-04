@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+@import "./partials/sections/education";
+@import "./partials/sections/explain";
+@import "./partials/sections/graduate";
+@import "./partials/sections/nav-area";
+@import "./partials/sections/partners";
+@import "./partials/sections/poster-fixed";

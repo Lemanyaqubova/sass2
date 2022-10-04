@@ -1,0 +1,43 @@
+#nav-area {
+    margin-top: 20px;
+    position: relative;
+    .icon {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        i {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+    .top-area span {
+        font-size: 12px;
+    }
+    .search-icon {
+        display: flex;
+        i {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+    .request {
+        position: relative;
+        button {
+            width: 178.88px;
+            height: 58px;
+            position: absolute;
+            right: -12px;
+            top: -40px;
+            border: none;
+            background-color: gold;
+            padding-top: 8px;
+        }
+    }
+}
+
+@media only screen and (max-width: 977px) {
+    #banner .main-banner .logo img {
+        width: 50px;
+        height: 30px;
+    }
+}

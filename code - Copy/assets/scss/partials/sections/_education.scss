@@ -1,0 +1,38 @@
+#education .col-6 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.species-code {
+    transition: all 0.5s;
+    padding: 30px;
+    border: 1px solid gray;
+    &:hover {
+        background-color: aquamarine;
+        transform: scale(1.1);
+        color: white;
+    }
+}
+
+.species-system {
+    transition: all 0.5s;
+    padding: 30px;
+    border: 1px solid gray;
+    &:hover {
+        transform: scale(1.1);
+        background-color: green;
+        color: white;
+    }
+}
+
+.about {
+    display: flex;
+    margin-top: 50px;
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    .content {
+        margin-left: 30px;
+    }
+}

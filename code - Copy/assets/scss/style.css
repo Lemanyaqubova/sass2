@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#education .col-6 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.species-code {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 30px;
+  border: 1px solid gray;
+}
+
+.species-code:hover {
+  background-color: aquamarine;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
+}
+
+.species-system {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 30px;
+  border: 1px solid gray;
+}
+
+.species-system:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: green;
+  color: white;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.about img {
+  width: 200px;
+  height: 200px;
+}
+
+.about .content {
+  margin-left: 30px;
+}
+
+#explain {
+  margin-top: 50px;
+}
+
+.why-code {
+  position: relative;
+}
+
+.why-code h1 {
+  font-size: 35px;
+  font-weight: 300px;
+}
+
+.why-code h1:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 90px;
+  content: " ";
+  width: 100px;
+  height: 2px;
+  background-color: brown;
+}
+
+#graduate {
+  margin-top: 50px;
+}
+
+#graduate .reviews {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#graduate p {
+  text-align: center;
+}
+
+#graduate .img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#graduate .img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#graduate .img h5 {
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+#nav-area {
+  margin-top: 20px;
+  position: relative;
+}
+
+#nav-area .icon {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#nav-area .icon i {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#nav-area .top-area span {
+  font-size: 12px;
+}
+
+#nav-area .search-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#nav-area .search-icon i {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#nav-area .request {
+  position: relative;
+}
+
+#nav-area .request button {
+  width: 178.88px;
+  height: 58px;
+  position: absolute;
+  right: -12px;
+  top: -40px;
+  border: none;
+  background-color: gold;
+  padding-top: 8px;
+}
+
+@media only screen and (max-width: 977px) {
+  #banner .main-banner .logo img {
+    width: 50px;
+    height: 30px;
+  }
+}
+
+#partners {
+  margin-top: 150px;
+}
+
+#partners .our-partners {
+  position: relative;
+  text-align: center;
+}
+
+#partners .our-partners::after {
+  left: 610px;
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: yellow;
+}
+
+#partners .logos {
+  margin-top: 50px;
+}
+
+#partners .logos img {
+  width: 110px;
+  height: 67.5px;
+  margin-left: 60px;
+}
+
+#poster-fixed {
+  margin-top: 100px;
+  height: 415.85px;
+  background-image: url(../img/b018f0b3-e046-432c-904f-11fb792acd21.jfif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#poster-fixed .poster h4 {
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#poster-fixed .poster .result {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+#poster-fixed .poster .result .content {
+  margin-left: 100px;
+}
+
+#poster-fixed .poster .result .content h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */
